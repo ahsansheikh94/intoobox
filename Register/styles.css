@@ -1,0 +1,56 @@
+.register-link {
+  font-size: 29px;
+  text-decoration: none;
+  color: #797979;
+  font-weight: 500;
+}
+.login-link {
+  font-size: 29px;
+  text-decoration: none;
+  color: #ff4141f5;
+  font-weight: 500;
+}
+.form-label {
+  font-weight: 500;
+  color: #393838;
+  font-size: 18px;
+}
+.form-label:after {
+  content: " *";
+  color: red;
+}
+.forgot-password {
+  text-decoration: none;
+  color: #797979;
+  font-weight: 500;
+  font-size: 16px;
+}
+.form-check-label {
+  color: #797979;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-login {
+  width: 100%;
+  border-radius: 2px;
+  background-color: #ec5d5d;
+  border: none;
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.btn-login:hover {
+  background-color: #de4646ba;
+}
+.span-color-gray {
+  color: #797979;
+}
+.mt_custom-6 {
+  margin-top: 6rem;
+}
+.mb_custom-5 {
+  margin-bottom: 5rem;
+}
+.mb_custom-2 {
+  margin-bottom: 2rem;
+}

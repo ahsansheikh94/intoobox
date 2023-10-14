@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../global-styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <i class="close-icon icon fa fa-close"></i>
+        <a href="#" class="nav-link">Cake Boxes</a>
+        <a href="#" class="nav-link">Sweet Boxes</a>
+        <a href="#" class="nav-link">Chocolate Boxes</a>
+        <a href="#" class="nav-link">Food Boxes</a>
+        <a href="#" class="nav-link">Stickers</a>
+        <a href="#" class="nav-link">Packaging Sleeves</a>
+        <a href="#" class="nav-link">Luxury Rigid Boxes</a>
+        <a href="#" class="nav-link">Pine wood boxes</a>
+      </div>
+      <div class="nav-container">
+        <div class="ham-container">
+          <i class="fa fa-bars icon hamburger"></i>
+        </div>
+        <div class="logo">
+          <img src="../assets/logo.png" alt="Logo" class="logo-img" />
+        </div>
+        <div class="icons-container">
+          <input
+            type="text"
+            placeholder="Search Something..."
+            class="search-input"
+          />
+          <i class="fa fa-search icon"></i>
+          <i class="fa fa-heart icon"></i>
+          <i class="fa fa-shopping-bag icon"></i>
+          <p>Cart: <span>#245</span></p>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="nav-link">Cake Boxes</a>
+        <a href="#" class="nav-link">Sweet Boxes</a>
+        <a href="#" class="nav-link">Chocolate Boxes</a>
+        <a href="#" class="nav-link">Food Boxes</a>
+        <a href="#" class="nav-link">Stickers</a>
+        <a href="#" class="nav-link">Packaging Sleeves</a>
+        <a href="#" class="nav-link">Luxury Rigid Boxes</a>
+        <a href="#" class="nav-link">Pine wood boxes</a>
+      </div>
+    </div>
+    <!-- Body -->
+    <div class="container mt-5 mb_custom-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="account-heading font-weight-bold text-dark text-center">
+            Account
+          </h1>
+          <div
+            class="account-head-child text-center mt-3"
+            style="font-size: 19px"
+          >
+            <span>Home </span><span class="span-color-gray">- Shop</span>
+          </div>
+          <div class="d-flex justify-content-evenly mt_custom-6">
+            <a href="#" class="register-link">Register</a>
+            <a href="#" class="login-link">Login</a>
+          </div>
+          <form style="margin-top: 50px">
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label"
+                >Username or email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="InputEmail"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="InputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="InputPassword" />
+            </div>
+            <div class="mb_custom-2 d-flex justify-content-between">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="Check" />
+                <label class="form-check-label" for="Check">Remember me</label>
+              </div>
+              <a href="#" class="forgot-password">Forgot your password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary btn-login">
+              Sign In
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="column">
+          <h5>Follow Us:</h5>
+          <p>D. No. 48-7-55/1, Srinagar, VIZAG - 530 016</p>
+          <p>Phone: 0891 - 2507678</p>
+          <p>Phone: 0891 - 2507678</p>
+          <p>Email: info@intoobox.com</p>
+          <p>Web: www.intoobox.com</p>
+        </div>
+        <div class="column">
+          <h5>Company</h5>
+          <p>About us</p>
+          <p>Coupons</p>
+          <p>Catalogue</p>
+          <p>Track Orders</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="column">
+          <h5>More Information</h5>
+          <p>Refund</p>
+          <p>FAQs</p>
+          <p>Return and Refund Policy</p>
+          <p>Privacy Policy</p>
+          <p>Terms and Conditions</p>
+        </div>
+        <div class="column">
+          <h5>Newsletter</h5>
+          <p>Stay up to date with all that's new</p>
+          <div class="email-input-container">
+            <input type="text" placeholder="Email" class="email-input" />
+            <div class="icon-container">
+              <i class="icon fa fa-paper-plane-o"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <p>Copyright 2023 <span>IN TOO BOX</span> all rights reserved</p>
+      </div>
+    </div>
+
+    <script src="./global-script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

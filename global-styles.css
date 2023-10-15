@@ -376,6 +376,12 @@ p {
     width: 85%;
   }
 }
+@media (max-width: 1060px) {
+  .delivery-container {
+    min-height: 400px;
+    flex-wrap: wrap;
+  }
+}
 
 @media (max-width: 900px) {
   .footer-container {

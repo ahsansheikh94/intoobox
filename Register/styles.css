@@ -33,14 +33,17 @@
 .btn-login {
   width: 100%;
   border-radius: 2px;
-  background-color: #ec5d5d;
+  background-color: #ff5656;
   border: none;
   text-transform: uppercase;
   height: 45px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .btn-login:hover {
-  background-color: #de4646ba;
+  background-color: #fe6c6c;
 }
 .span-color-gray {
   color: #797979;

@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="../global-styles.css" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Register</title>
+    <title>Order Tracking</title>
   </head>
   <body>
     <div>
@@ -65,7 +65,7 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
           <h1 class="account-heading font-weight-bold text-dark text-center">
-            Account
+            Order Tracking
           </h1>
           <div
             class="account-head-child text-center mt-3"
@@ -73,37 +73,39 @@
           >
             <span>Home </span><span class="span-color-gray">- Shop</span>
           </div>
-          <div class="d-flex justify-content-evenly mt_custom-6">
-            <a href="#" class="register-link">Register</a>
-            <a href="#" class="login-link">Login</a>
+          <div class="mt_custom-6">
+            <p class="p-style">
+              To track your order please enter your Order ID in the box below
+              and press the "Track" button. This was given to your reciept and
+              in the confirmation email you should have recieved.
+            </p>
           </div>
           <form style="margin-top: 50px">
             <div class="mb-3">
-              <label for="InputEmail" class="form-label"
-                >Username or email address</label
+              <label for="orderNumber" class="form-label mb-3"
+                >Order Number</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="orderNumber"
+                placeholder="Found in your order confirmation email"
+              />
+            </div>
+            <div class="mb-5">
+              <label for="InputEmail" class="form-label mb-3"
+                >Billing email</label
               >
               <input
                 type="email"
                 class="form-control"
                 id="InputEmail"
                 aria-describedby="emailHelp"
+                placeholder="Email you used for order"
               />
             </div>
-            <div class="mb-3">
-              <label for="InputPassword" class="form-label">Password</label>
-              <input type="password" class="form-control" id="InputPassword" />
-            </div>
-            <div class="mb_custom-2 d-flex justify-content-between">
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="Check" />
-                <label class="form-check-label" for="Check">Remember me</label>
-              </div>
-              <a href="../Forgot/index.html" class="forgot-password"
-                >Forgot your password?</a
-              >
-            </div>
-            <button type="submit" class="btn btn-primary btn-login">
-              Sign In
+            <button type="submit" class="btn btn-primary btn-login track-btn">
+              Tracking Order
             </button>
           </form>
         </div>

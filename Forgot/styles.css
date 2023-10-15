@@ -1,45 +1,15 @@
-.btn-login {
-  width: 100%;
-  border-radius: 2px;
-  background-color: #ff5656;
-  border: none;
-  text-transform: uppercase;
-  height: 50px;
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.btn-login:hover {
-  background-color: #fe6c6c;
-}
-.btn-login:active {
-  background-color: #ff5656 !important;
-}
-
-.form-label:after {
-  content: " *";
-  color: red;
-}
 .heading {
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 20px;
 }
-.form-label {
-  font-weight: 500;
-  color: #393838;
-  font-size: 18px;
-}
+
 #InputEmail {
   height: 50px;
   border-radius: 2px;
   background-color: #f0f0f0;
   padding: 0.375rem 1.75rem;
 }
-#InputEmail::placeholder {
-  opacity: 0.5;
-  font-weight: 500;
-}
+
 .another-way {
   color: #797979;
   text-transform: uppercase;

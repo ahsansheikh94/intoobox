@@ -141,10 +141,21 @@
 .span-color-gray {
   color: #797979;
 }
+.heading {
+  font-size: 35px;
+  line-height: 30px;
+  color: #333333 !important;
+  font-weight: bold;
+}
+.account-head-child {
+  font-size: 16px;
+  line-height: 72px;
+  color: #333333;
+}
 .btn-login {
   width: 100%;
   border-radius: 2px;
-  background-color: #ff5656;
+  background-color: #ff6363;
   border: none;
   text-transform: uppercase;
   height: 45px;
@@ -154,10 +165,10 @@
 }
 
 .btn-login:hover {
-  background-color: #fe6c6c;
+  background-color: #f14b4b;
 }
 .btn-login:active {
-  background-color: #ff5656 !important;
+  background-color: #f14b4b !important;
 }
 
 .form-label {

@@ -129,6 +129,90 @@
   cursor: pointer;
 }
 
+.mt_custom-6 {
+  margin-top: 6rem;
+}
+.mb_custom-5 {
+  margin-bottom: 5rem;
+}
+.mb_custom-2 {
+  margin-bottom: 2rem;
+}
+.span-color-gray {
+  color: #797979;
+}
+.heading {
+  font-size: 35px;
+  line-height: 30px;
+  color: #333333 !important;
+  font-weight: bold;
+}
+.account-head-child {
+  font-size: 16px;
+  line-height: 72px;
+  color: #333333;
+}
+.btn-login {
+  width: 100%;
+  border-radius: 2px;
+  background-color: #ff6363;
+  border: none;
+  text-transform: uppercase;
+  height: 45px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.btn-login:hover {
+  background-color: #f14b4b;
+}
+.btn-login:active {
+  background-color: #f14b4b !important;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #393838;
+  font-size: 18px;
+}
+.form-control {
+  height: 50px;
+}
+.form-label:after {
+  content: " *";
+  color: red;
+}
+input::placeholder {
+  opacity: 0.5 !important;
+  font-weight: 500 !important;
+}
+
+.delivery-container {
+  height: 145px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+
+.delivery-container-child {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+div.delivery-container-child div h1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: bold;
+}
+div.delivery-container-child div span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
 .footer-container {
   background-color: #262626;
   width: 100vw;
@@ -290,6 +374,12 @@ p {
   }
   .footer-container .email-input-container .email-input {
     width: 85%;
+  }
+}
+@media (max-width: 1060px) {
+  .delivery-container {
+    min-height: 400px;
+    flex-wrap: wrap;
   }
 }
 

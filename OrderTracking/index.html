@@ -7,11 +7,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="./global-styles.css" />
-    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../global-styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Order Tracking</title>
   </head>
   <body>
-    <div class="container">
+    <div>
       <div class="sidebar">
         <i class="close-icon icon fa fa-close"></i>
         <a href="#" class="nav-link">Cake Boxes</a>
@@ -28,7 +35,7 @@
           <i class="fa fa-bars icon hamburger"></i>
         </div>
         <div class="logo">
-          <img src="./assets/logo.png" alt="Logo" class="logo-img" />
+          <img src="../assets/logo.png" alt="Logo" class="logo-img" />
         </div>
         <div class="icons-container">
           <input
@@ -37,14 +44,14 @@
             class="search-input"
           />
           <div class="nav-icon">
-            <img src="./assets/search.png" alt="bag" />
+            <img src="../assets/search.png" alt="bag" />
           </div>
           <div class="nav-icon">
-            <img src="./assets/bag.png" alt="bag" />
+            <img src="../assets/bag.png" alt="bag" />
             <div class="count">1</div>
           </div>
           <div class="nav-icon">
-            <img src="./assets/heart.png" alt="bag" />
+            <img src="../assets/heart.png" alt="bag" />
             <div class="count">1</div>
           </div>
           <p>Cart: <span>#245</span></p>
@@ -61,10 +68,58 @@
         <a href="#" class="nav-link">Pine wood boxes</a>
       </div>
     </div>
+    <!-- Body -->
+    <div class="container mt-5 mb_custom-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="heading font-weight-bold text-dark text-center">
+            Order Tracking
+          </h1>
+          <div class="account-head-child text-center mt-3">
+            <span>Home </span><span class="span-color-gray">- Shop</span>
+          </div>
+          <div class="mt_custom-6">
+            <p class="p-style">
+              To track your order please enter your Order ID in the box below
+              and press the "Track" button. This was given to your reciept and
+              in the confirmation email you should have recieved.
+            </p>
+          </div>
+          <form style="margin-top: 50px">
+            <div class="mb-3">
+              <label for="orderNumber" class="form-label mb-3"
+                >Order Number</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="orderNumber"
+                placeholder="Found in your order confirmation email"
+              />
+            </div>
+            <div class="mb-5">
+              <label for="InputEmail" class="form-label mb-3"
+                >Billing email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="InputEmail"
+                aria-describedby="emailHelp"
+                placeholder="Email you used for order"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary btn-login track-btn">
+              Tracking Order
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
     <div class="delivery-container">
       <div class="delivery-container-child">
         <img
-          src="./assets/freeDelivery.png"
+          src="../assets/freeDelivery.png"
           width="39px"
           height="34px"
           alt="DELIVERY"
@@ -76,7 +131,7 @@
       </div>
       <div class="delivery-container-child">
         <img
-          src="./assets/return.png"
+          src="../assets/return.png"
           width="39px"
           height="34px"
           alt="return"
@@ -88,7 +143,7 @@
       </div>
       <div class="delivery-container-child">
         <img
-          src="./assets/payment.png"
+          src="../assets/payment.png"
           width="39px"
           height="34px"
           alt="payment"
@@ -100,7 +155,7 @@
       </div>
       <div class="delivery-container-child">
         <img
-          src="./assets/support.png"
+          src="../assets/support.png"
           width="39px"
           height="34px"
           alt="support"
@@ -151,15 +206,20 @@
       <div class="copyright-container">
         <p>Copyright 2023 <span>IN TOO BOX</span> all rights reserved</p>
         <div class="cards">
-          <img src="./assets/Master.png" alt="" class="card" />
-          <img src="./assets/Visa.png" alt="" class="card" />
-          <img src="./assets/Blue.png" alt="" class="card" />
-          <img src="./assets/Discover.png" alt="" class="card" />
-          <img src="./assets/Bank.png" alt="" class="card" />
+          <img src="../assets/Master.png" alt="" class="card" />
+          <img src="../assets/Visa.png" alt="" class="card" />
+          <img src="../assets/Blue.png" alt="" class="card" />
+          <img src="../assets/Discover.png" alt="" class="card" />
+          <img src="../assets/Bank.png" alt="" class="card" />
         </div>
       </div>
     </div>
 
-    <script src="./global-script.js"></script>
+    <script src="../global-script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

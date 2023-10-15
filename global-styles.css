@@ -16,7 +16,7 @@
 
 .nav-container .logo {
   height: 100%;
-  width: 500px;
+  width: 280px;
 }
 
 .ham-container {
@@ -180,7 +180,7 @@ input::placeholder {
 .footer-container {
   background-color: #262626;
   width: 100vw;
-  height: 450px;
+  height: 500px;
 }
 
 .footer-container .footer {
@@ -266,6 +266,19 @@ p {
   margin: auto;
 }
 
+.footer-container .copyright-container .cards {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 1px;
+}
+
+.footer-container .copyright-container .cards img {
+  height: 20px;
+  width: 40px;
+  object-fit: contain;
+}
+
 .footer-container .copyright-container p {
   font-size: 16px;
   color: #8d8d8d;
@@ -273,4 +286,88 @@ p {
 
 .footer-container .copyright-container span {
   color: white;
+}
+
+.nav-icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+
+.nav-icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.nav-icon .count {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #fe5c68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .search-input {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .ham-container {
+    width: 20%;
+  }
+
+  .sidebar {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer-container .footer {
+    width: 95%;
+  }
+  .footer-container .email-input-container .email-input {
+    width: 85%;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+    height: max-content;
+  }
+  .footer-container .footer {
+    height: max-content;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .copyright-container {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .copyright-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-container {
+    height: 150px;
+    padding: 10px;
+  }
+  .sidebar {
+    width: 100vw;
+  }
 }
